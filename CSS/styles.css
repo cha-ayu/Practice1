@@ -1,0 +1,93 @@
+body {
+  background-color: saddlebrown;
+  color: #333;
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: pink;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  border-radius: 50%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white;
+}
+
+.info {
+  margin-left: 32px;
+}
+
+.info h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+}
+
+.info p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.info ul li {
+  margin-right: 8px;
+}
+
+.works {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.works > h1 {
+  color: pink;
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 60px; 
+  margin-bottom: 60px;
+}
+
+.works > section {
+  background-color: white;
+  margin-bottom: 80px;
+  padding: 50px;
+  padding-bottom: 20px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.22);
+}
+
+.works > section > h1 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.works > section > p {
+  margin: 8px;
+}
+
+
+footer {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 14px;
+  color: #333;
+}
